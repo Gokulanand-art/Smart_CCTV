@@ -59,40 +59,44 @@ Detailed flow is documented in docs/system_flow.md.
 
 ## 🗂️ Project Structure
 
+```
 smart_cctv/
-├── ai/                         # AI perception modules
+├── ai/
 │   ├── person_detection/
 │   ├── face_detection/
 │   └── dress_analysis/
 │
-├── core/                       # Core intelligence & logic
+├── core/
 │   ├── entry_exit/
 │   └── person_card_schema.py
 │
-├── config/                     # Camera & system configuration
+├── config/
 │   └── camera_config.yaml
 │
-├── db/                         # Database schema
+├── db/
 │   └── schema.sql
 │
-├── docs/                       # Documentation & policies
+├── docs/
 │   ├── system_flow.md
 │   └── privacy_policy.md
 │
-├── ingest/                     # Video ingestion layer
+├── ingest/
 │
-├── logs/                       # System logs
+├── logs/
 │   └── system.log
 │
-├── scripts/                    # Startup / utility scripts
+├── scripts/
 │   └── start_system.sh
 │
-├── storage/                    # Evidence storage (faces)
+├── storage/
 │   └── faces/
 │
-├── ui/                         # Future user interface
+├── ui/
 │
 └── README.md
+```
+
+
 ---
 
 ## 🪪 Person Card Design
